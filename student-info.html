@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Student Information</title>
+
+<link rel="stylesheet" type="text/css" href="student-info.css">
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+</head>
+<body>
+	<div class="container">
+		<form class="form-horizontal">
+			
+				  <h2><b>Registration</b></h2>
+
+				  <div class="row">
+				  	<div class="col-md-2"></div>
+				  	<div class="col-md-8">
+				  	<h4 class="text-primary">---------------Personal Info-------- </h4></div>
+				  	<div class="col-md-2"></div>
+				  </div>
+
+				<div class="row">
+				  <div class="col-md-2">
+                    <div class="form-group">
+                    <label >Student Full Name</label>
+                    </div>
+                  </div>
+                    <div class="col-md-8">
+                        <input type="text" name="Student-Name" placeholder="Student Full Name" class="form-control" autofocus required="">
+                    </div>
+                </div>
+                <div class="row">
+                		<div class="col-md-2">
+                		<div class="form-group">
+                   		<label>Mobile No</label>
+                	        </div>
+                        </div>
+                        <div class="col-md-8">
+                		<input type="number" name="Mobile-No" placeholder="Enter Mobile-No" class="form-control" required="">
+                	</div>
+                </div>
+            
+            	 <div class="row">
+                		<div class="col-md-2">
+                		<div class="form-group">
+                   		<label>Email </label>
+                	        </div>
+                        </div>
+                        <div class="col-md-8">
+                		<input type="Email" name="Email-Id" placeholder="Enter Email-Id" class="form-control"  required="">
+                	</div>
+                </div>
+            
+             <div class="row">
+                		<div class="col-md-2">
+                		<div class="form-group">
+                   		<label>Date Of Birth</label>
+                	        </div>
+                        </div>
+                        <div class="col-md-8">
+                		<input type="Date" name="Date-Birth"  class="form-control">
+                	</div>
+                </div>
+            
+            <div class="row">
+            	<div class="col-md-3">
+            		<div class="form-group">
+            			<label >Class</label> <select class="form-control" name="category">
+                          <option>select</option>
+       						<option>10</option>
+        					<option>11</option>
+        					<option>12</option>
+        		    </select>           
+        
+            		</div>
+            	</div>
+            	<div class="col-md-3">
+            		<div class="form-group">
+            		<label >Batch</label> 
+                       <select class="form-control" name="category">
+                          <option value=""></option>
+                          <option value="8A.M.">select1</option>
+                          <option value="10A.M.">select2</option>
+                          <option value="12A.M.">select3</option>
+        		    </select>           
+        
+            		</div>
+            	</div>
+            	<div class="col-md-6 a11" >
+            		<div class="form-group">
+            		<label >Photo upload</label>
+            		<input type="file" name="pic" ></div>
+            	</div>
+            </div>
+
+            <div class="row">
+				  	<div class="col-md-2"></div>
+				  	<div class="col-md-8">
+				  	<h4 class="text-success">--------------Parent Details-------- </h4></div>
+				  	<div class="col-md-2"></div>
+				  </div>
+
+
+            	<div class="row">
+                		<div class="col-md-2">
+                		<div class="form-group">
+                   		<label>Parent Contact No</label>
+                	        </div>
+                        </div>
+                        <div class="col-md-8">
+                		<input type="number" name="P-Mobile" placeholder="Enter Mobile-No" class="form-control" required="">
+                	</div>
+                </div>
+
+                <div class="row">
+                		<div class="col-md-2">
+                		<div class="form-group">
+                   		<label>Contact Person Name</label>
+                	        </div>
+                        </div>
+                        <div class="col-md-8">
+                		<input type="text" name="Parent-Name" placeholder="Enter Name" class="form-control" required="">
+                	</div>
+                </div>
+
+
+                <div class="row">
+                		<div class="col-md-10">
+                		<div class="form-group">
+                   		<label>Course</label></div>
+                         <select class="form-control" name="category">
+                         	<option>select</option>
+       						<option>Biology</option>
+        					<option>Physics</option>
+        					<option>Maths</option>
+        		    </select>           
+        			   </div>
+            		</div>
+
+                <div class="row">
+				  	<div class="col-md-2"></div>
+				  	<div class="col-md-8">
+				  	<h4 class="text-info">---------------Fees Details-------- </h4></div>
+				  	<div class="col-md-2"></div>
+				  </div>
+
+				   
+
+                <div class="row">
+                		<div class="col-md-2">
+                		<div class="form-group">
+                   		<label>Total Fees</label>
+                	        </div>
+                        </div>
+                        <div class="col-md-8">
+                		<input type="number" name="Total-Fees" class="form-control" >
+                	</div>
+                </div>
+
+                <div class="row">
+                		<div class="col-md-2">
+                		<div class="form-group">
+                   		<label>Paid/Advance</label>
+                	        </div>
+                        </div>
+                        <div class="col-md-8">
+                		<input type="number" name="Adv-Fees" class="form-control" >
+                	</div>
+                </div>
+
+                <div class="row">
+                		<div class="col-md-2">
+                		<div class="form-group">
+                   		<label>Remaing Fees</label>
+                	        </div>
+                        </div>
+                        <div class="col-md-8">
+                		<input type="number" name="Rem-Fees" class="form-control" >
+                	</div>
+                </div>
+
+                <div class="row">
+                	<div class="col-md-5">
+                	 <button type="submit" class="btn btn-success btn-block">Submit</button>
+                	 </div>
+                	<div class="col-md-5">
+                   	 <button type="reset" class="btn btn-danger btn-block">reset</button>
+                   	</div>
+                </div>
+
+
+
+		</form>
+	</div>
+	
+
+
+<!-- 
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5mdXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script> -->
+</body>
+</html>

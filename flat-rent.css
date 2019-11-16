@@ -1,0 +1,81 @@
+.main{
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    text-align: center;
+
+
+}
+.building-card{
+    width: 326px;
+    height: auto;
+    border: 1px solid #e6e6e6;
+    border-radius: 4px;
+    margin-right: 12px;
+    margin-left: 12px;
+    box-shadow: 0px 2px 2px 0px grey;
+    display: inline-block;
+    border-radius: 8px 8px 8px 8px;
+
+}
+.Building-img{
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+img{
+    width: 100%;
+    height: 172px;
+    border-radius: 8px 8px 0px 0px;
+}
+.Builder-details{
+    height: auto;
+    padding: 5px 20px 0;
+    line-height: 1.4;
+    box-sizing: border-box;
+    text-align: left
+
+}
+
+.img-cap{
+    color: #000;
+    font-family: 'Roboto Slab', serif;
+    font-size: 24px;
+    font-weight: 500;
+   
+}
+.img-subCap{
+    color: rgba(0,0,0,.5);
+    font-family: 'Roboto', sans-serif;
+
+}
+.flat-type{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    
+}
+.type-deatil{
+    color: #191919;
+    font-family: fantasy;
+    font-size: 16px;
+
+    
+}
+.addr{
+    color: rgba(0,0,0,.5);
+    font-family: 'Roboto', sans-serif;
+
+
+
+}
+.flat-price{
+    margin-bottom: 10px;
+    font-family: fantasy;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 12px;
+
+}

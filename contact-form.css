@@ -1,0 +1,72 @@
+html,body {
+    padding: 0% !important;
+    margin: 0% !important;
+    background-image: linear-gradient(to right, #32B1E4, #A34EF2, #CB2CF8);
+
+}
+
+.container {
+    width: 100%;
+    display: table;
+
+}
+
+.a {
+    width: 33%;
+    height: 99vh;
+    float: left;
+    overflow: hidden;
+    
+
+}
+
+.b {
+    width: 33%;
+    display: table-cell;
+    float: left;
+    overflow: hidden;
+    background-color: #FFFFFF;
+    height: 90vh;
+    margin-top: 26px;
+    border-radius: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+label{
+    font-size: 16px;
+}
+
+.c {
+    width: 33%;
+    height: 99vh;
+    float: left;
+    overflow: hidden;
+
+}
+
+.heading {
+    text-align: center;
+    padding: 16px;
+}
+
+.contact-form {
+    padding-top: 16px;
+}
+.gradient-btn{
+}
+
+button {
+    background-image:
+        linear-gradient(to right, #CB2CF8, #A34EF2, #32B1E4 );
+        margin-top:16px; 
+        margin-left: 1px;
+        padding: 8px 120px 0px 112px;
+        border-radius: 24px 24px 24px 24px;
+}
+h6{
+    color: white;
+    text-align: center;
+}
+select{
+
+}

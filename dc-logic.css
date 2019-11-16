@@ -1,0 +1,182 @@
+html, body{
+    margin: 0% !important;
+    padding: 0% !important;
+}
+
+.container{
+    width: 100%;
+    background-color: #d2cece8a;
+}
+
+.navbar{
+    width: 100%;
+    height: 48px;
+    background-color: rgb(2, 57, 83);
+    /* position: fixed; */
+    overflow: hidden;
+    box-sizing: border-box;
+    
+}
+
+.logo-name{
+    width: 50%;
+    float: left;
+    overflow: hidden;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    padding-top: 4px;
+
+
+}
+
+label{
+
+    font-size: xx-large;
+    padding-left: 48px;
+}
+
+.menu{
+    width:50%;
+    float: right;
+    
+  
+}
+li a.active {
+    color: white;
+    background-color: rgb(89, 149, 177);
+  }
+
+ul{
+     
+    list-style: none;
+    padding-left: 48px;
+    overflow: hidden;
+    margin: 0%;
+
+}
+
+li a {
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    float: left;
+    
+}
+.clearfix{
+    clear: both;
+}
+
+.banner{
+    width: 100%;
+    height: 494px   ;
+    box-sizing: border-box;
+
+
+}
+.b-text{
+    text-align: center;
+    position: relative;
+    top: -315px;
+    z-index: 5;
+    font-size: 24px;
+    font-weight: 600;
+    color: rgb(2, 57, 83);
+    line-height: 14px;
+}
+.b-subt{
+    text-align: center;
+    position: relative;
+    top: -368px;
+    z-index: 5;
+    font-size: 24px;
+    font-weight: 600;
+    color:rgb(18, 48, 62);
+    line-height: 14px;
+
+}
+.b-more{
+    text-align: center;
+    position: relative;
+    top: -354px;
+    z-index: 5;
+    font-weight: 600;
+    color:rgb(18, 48, 62);
+    line-height: 14px;
+
+
+}
+.sub-main{
+    width: 100%;
+    height: 476px;
+    box-sizing: border-box;
+    text-align: center;
+
+
+}
+.travel-card{
+    width: 326px;
+    
+    margin-right: 12px;
+    margin-left: 12px;
+    display: inline-block;
+    background-color: whitesmoke;
+
+}
+.travel-img{
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+h3{
+    text-align: center;
+    color: rgb(89, 149, 177);
+    font-family: 'Roboto', sans-serif;
+}
+
+.travel-details{
+    height: auto;
+    padding: 5px 20px 0;
+    line-height: 1.4;
+    box-sizing: border-box;
+    text-align: left
+
+}
+p{
+    padding: 0px 8px 0px 8px;
+    font-family: monospace;
+    line-height: 1.3;
+}
+
+.more{
+    width: 10%;
+    height: auto;
+    display: table-cell;
+    overflow: hidden;
+    vertical-align: middle;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 1.35em;
+    padding-bottom: 16px;
+}
+input{
+        background-color: rgb(2, 57, 83); 
+        padding: 8px;
+        width: 86px;
+        color: white;
+
+} 
+
+h2{
+    text-align: center;
+    height: 60px;
+
+}
+.heading{
+
+}
